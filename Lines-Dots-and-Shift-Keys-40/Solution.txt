@@ -1,0 +1,16 @@
+1. The problem is written in morse code:
+.... - - .--. ---... -..-. -..-. - .. -. -.-- ..- .-. .-.. .-.-.- -.-. --- -- -..-. .-.. .. -. . ... .- -. -.. -.. --- - ...
+
+This translates to:
+HTTP://TINYURL.COM/LINESANDDOTS
+
+Which is a link to a google docs, which contains:
+snhj btwp! ymnx hnumjw xmtzqi gj kfrnqnfw yt dtz, tw rfdgj sty. fsdbfd, fx f wjbfwi, mfaj ymnx kqfl. q1s3x_fsi_i0yx_y0_b0wie
+
+Which is quite obviously a rot-n encryption, since the question contains the words 'shift keys'.
+
+This is then decrypted via solution.py, you know that it's rot-21, and the message is:
+
+rot-21: nice work! this cipher should be familiar to you, or maybe not. anyway, as a reward, have this flag. l1n3s_and_d0ts_t0_w0rdz
+
+And there's your flag

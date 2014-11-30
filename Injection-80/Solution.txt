@@ -1,0 +1,15 @@
+This problem is basic sql injection, very similar to Injection-1 of PicoCTF
+
+The way to do this is to enter an executable query that would replace the normal search database verification system.
+
+The username entered should be:
+' OR 1 = 1 LIMIT 1 -- 
+
+This would comment out the rest of the password verification code, and just use 1 = 1, which is true, to give you the info.
+
+You type that in, you get the user as admin, and the message as "there might be another user"
+
+So you change the query to:
+' OR 1 = 1 LIMIT 2 -- 
+
+This gives you the flag, which is "kids_dont_code_like_this_at_home"
