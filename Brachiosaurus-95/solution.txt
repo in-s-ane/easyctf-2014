@@ -1,0 +1,12 @@
+We first extract the JPEG which leaves us with a folder aptly named "not
+suspicious". Inside this folder, we have 25 files named "[number].short.out"
+filled with garbage text and a file named "WhatAFineKeyThisIs.short.out" which
+contains the text "my favorite numbers are seven and three." and the ciphertext
+"gaf cnrvp qnjkfs hz zfufqgffq".  Running the ciphertext through a
+cryptogram/substitution cipher solver (http://www.quipqiup.com/index.php) which
+uses frequency analysis, we get a possible plaintext of "the lucky number is
+seventeen".  This clues us in to 17.short.out, which we can scan through for any
+plaintext.  As I was reading through it, my eye caught upon "EFF0RTS" and the
+entire text block it was in was "ANSWER4Y0UREFF0RTSISC1PH3RSANDKRYPT0", giving
+us the flag which is C1PH3RSANDKRYPT0. It seems as if the other plaintext in
+WhatAFineKeyThisIs.short.out was merely a distraction.
