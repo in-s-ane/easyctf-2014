@@ -1,0 +1,10 @@
+.DS_Store
+._*
+_*
+.Spotlight*
+.Trashes
+
+*.s[a-w][a-z]
+*~
+\#*\#
+.\#*
