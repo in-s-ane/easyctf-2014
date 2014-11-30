@@ -1,0 +1,9 @@
+1. Open Chrome
+2. Open Console
+3. Copy-paste contents of obfuscate.js into console
+4. You should see `The flag is near` along with a link to `VM124:1` on the side
+
+
+Contents of VM124:1
+-------------------
+var f1ag = "0bfuscaTion fTw";console.log("The flag is near")
