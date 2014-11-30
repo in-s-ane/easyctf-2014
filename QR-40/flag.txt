@@ -1,0 +1,3 @@
+Scan that terrible fix of a QR code:
+
+QRs_r_2D_baRcoDEz
