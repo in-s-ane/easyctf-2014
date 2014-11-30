@@ -1,0 +1,4 @@
+Vignere Cipher
+Passphrase: Easy As CTF
+Text: xhwdlsibxnmwvinalpdcbsymzzx
+Answer: theflagishiddeninplainsight
