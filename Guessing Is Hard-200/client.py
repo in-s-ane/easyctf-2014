@@ -8,11 +8,11 @@ PORT = 10663
 
 def main():
     while (True):
-        random.seed()
-        secret = random.random()
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         sock.connect((HOST, PORT))
         received = sock.recv(1024)
+        random.seed()
+        secret = random.random()
         sock.sendall(str(secret));
         received = sock.recv(1024)
         if received != "NOPE\n":
