@@ -1,0 +1,44 @@
+This is a poem code encryption.
+===============================================================================
+We are given 5 numbers, which refer to words in the poem that are used to form
+the transposition key for the cipher.
+The five words are while, weary, while, there, and bleak.
+To get the transposition key, we number the letters in whilewearywhiletherebleak
+alphabetically (a -> 1, a -> 2, b -> 3, ...) which gives us 25 numbers
+If we split our ciphertext into columns of 25 characters, we get exactly 4 rows.
+Therefore, each block of the ciphertext represents one vertical column.
+We then traverse in parallel through our ciphertext (by each block of 4 chars)
+and our transposition key and assign a column number based on the transposition
+key at that index.
+For example, 'w' in "while" is numbered 22, so the first block "uuoy" is
+assigned to column 22.
+We continue this until we have all the columns assigned.
+Now, we can simple read the columns right to left to get our plaintext message.
+
+===============================================================================
+
+    Once upon a midnight dreary, while I pondered, weak and weary,
+    Over many a quaint and curious volume of forgotten lore –
+    While I nodded, nearly napping, suddenly there came a tapping,
+    As of some one gently rapping, rapping at my chamber door –
+    "'Tis some visitor," I muttered, "tapping at my chamber door –
+    Only this and nothing more."
+
+    Ah, distinctly I remember it was in the bleak December;
+    And each separate dying ember wrought its ghost upon the floor.
+    Eagerly I wished the morrow; – vainly I had sought to borrow
+    From my books surcease of sorrow – sorrow for the lost Lenore – 
+    For the rare and radiant maiden whom the angels name Lenore – 
+    Nameless here for evermore.'"
+
+ciphertext: 6 11 22 28 66 uooy htue mghn salc mria rrop clns pggl eoie nioo ifdt iwtd eres atau odgh dfgr doti dwii sbsc eato eorf gjgr sron owud sefe
+
+w  h  i  l  e  w  e  a  r  y  w  h  i  l  e  t  h  e  r  e  b  l  e  a  k
+22 10 13 16 4  23 5  1  19 25 24 11 14 17 6  21 12 7  20 8  3  18 9  2  15
+
+1  2  3  4  5  6  7  8  9  10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25
+p  o  e  m  c  o  d  e  s   h  i  d  m  e  s  s  a  g  e  s  d  u  r  i  n  
+g  w  o  r  l  d  w  a  r   t  w  o  g  r  e  a  t  j  o  b  f  o  r  f  i  
+g  u  r  i  n  g  i  t  o   u  t  t  h  e  f  l  a  g  i  s  g  o  o  d  o  
+l  d  f  a  s  h  i  o  n   e  d  i  n  s  e  c  u  r  e  c  r  y  p  t  o  
+

@@ -1,0 +1,9 @@
+I'm lazy so I just did:
+
+$ unzip corrupted.txt
+$ grep flag *
+
+which gives us the file and the flag:
+
+f2590:zc-Q8=_P~;2J{Ov=ESWQ)Ac,;P!xL"o2M4_
+<<$MQJQN0z_~m.6f(ciaw?U`/Oh?hGK@<<20;>-Gfn;G4//N%-kt.Z;}N5>(~[Bv~L'(3kk<44_6.Nr&PPs"Q*:,6DetRC gIR;U4dG_p1Hb<Rx96\<5vTZR[}#&[(LGNx[b0uBxTPvq3Js_q*2&("j+W!*9mH37\Nkedc{/Og!rcwv=Vpb@GNDWz^tuR2' Pt-obz8l;wES8aUu'wkAN3f,0{Rrw5jC%J#j:{S-p N,3u?Mr5Aau)?J3a_,G@,0CZ9FIhFn5KwqD#qn)('_D{jp~wO>OpLyRPg|HD,Ui.` flag is ph1l_k4tz PDm"z!wlr$A/t/4$K1v'kyn"-yAdF H.E6j:=j>T%w>L7`'")])]])]))}
