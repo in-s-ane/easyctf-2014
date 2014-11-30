@@ -1,4 +1,4 @@
 Vignere Cipher
-Passphrase: Easy As CTF
+Passphrase: Easy As CTF Gets
 Text: xhwdlsibxnmwvinalpdcbsymzzx
 Answer: theflagishiddeninplainsight
