@@ -56,12 +56,13 @@ e2 = 260393671 * 398438561
 d2 = 139 * 5635373
 #Try 3: use 3r + 1
 e3 = 968930987 * 2541455999
-d3 = 9 * 5 #* 1100101
+d3 = 9 * 1100101 * 5
 #Try 4: use 4r + 1
 #e = 3089 * 5851089594680350369
 d4 = 17 * (23**2) * 3089 # results in crash
 
-message = (cipher ** d) % N
+
+message = powerMod(cipher , d , N)
 print("c:		" + str(cipher))
 print("m: 		" + str(message))
 message = str(hex(message).split('x')[1])
