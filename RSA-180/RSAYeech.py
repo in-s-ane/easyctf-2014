@@ -31,7 +31,7 @@ def modinv(a,m): # Modular Inverse Finder
 
 f = open("RSASolve.txt","a");
 
-for e in range(0,10000):
+for e in range(0,100000):
 	if gcd(e,totient) == 1:
 		d = modinv(e,totient);
 		m = pow(c,d,k);
