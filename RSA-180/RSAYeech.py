@@ -29,7 +29,9 @@ def modinv(a,m): # Modular Inverse Finder
 #d = modinv(c,totient); # Doesn't make sense b/c c is not coprime to totient
 #d = modinv(c/2,totient); # Makes 0 sense
 
-for e in range(1000,2000):
+f = open("RSASolve.txt","a");
+
+for e in range(0,10000):
 	if gcd(e,totient) == 1:
 		d = modinv(e,totient);
 		m = pow(c,d,k);
@@ -38,7 +40,7 @@ for e in range(1000,2000):
 		#print "d: %d" %(d);
 		#print "Hex: %s" %(hex(d));
 		if len(str(hexM)[2:-1]) % 2 == 0:
-			print str(e) + ": " + str(hexM)[2:-1].decode("hex");
+			f.write("\n" + str(e) + ": " + str(hexM)[2:-1].decode("hex"));
 		#print "Result: %s" %(hex(d)[2:].decode("hex"));
 
 
