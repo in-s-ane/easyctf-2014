@@ -70,7 +70,7 @@ cipher = int("ac470f7350ea67d7a0696" , 16)
 #Try 7: use 7r + 1
 #Factors: 5 , 13 , 19 , 31 , 48337 , 11416753 , 13463139607
 
-d = 19 * 31 * 11416753 * 13463139607
+d = 5 * 13 * 31 * 48337 * 11416753
 
 message = powerMod(cipher , d , N)
 print("c:		" + str(cipher))
