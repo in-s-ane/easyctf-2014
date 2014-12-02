@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+import sys;
+
 k = 40634905927881125837687153L #int("0x219cc6aa0ec13d041c4971",16);
 totient = 40634905927850661848135028L;
 c = 13016925875285007045101206L;
@@ -38,7 +40,7 @@ def printableAscii(string):
 
 f = open("RSASolve.txt","a");
 
-for e in range(0,1000000):
+for e in range(0,int(sys.argv[1])):
 	if gcd(e,totient) == 1:
 		d = modinv(e,totient);
 		m = pow(c,d,k);
