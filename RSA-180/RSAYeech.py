@@ -26,12 +26,19 @@ def modinv(a,m): # Modular Inverse Finder
 	else:
 		return x % m;
 
+def printableAscii(string):
+	charList = list(string);
+	for el in string:
+		if ord(el) < 32 or ord(el) > 126:
+			return False;
+	return True;
+
 #d = modinv(c,totient); # Doesn't make sense b/c c is not coprime to totient
 #d = modinv(c/2,totient); # Makes 0 sense
 
 f = open("RSASolve.txt","a");
 
-for e in range(0,100000):
+for e in range(0,1000000):
 	if gcd(e,totient) == 1:
 		d = modinv(e,totient);
 		m = pow(c,d,k);
@@ -40,8 +47,12 @@ for e in range(0,100000):
 		#print "d: %d" %(d);
 		#print "Hex: %s" %(hex(d));
 		if len(str(hexM)[2:-1]) % 2 == 0:
-			f.write("\n" + str(e) + ": " + str(hexM)[2:-1].decode("hex"));
+			#f.write("\n" + str(e) + ": " + str(hexM)[2:-1].decode("hex"));
+			if printableAscii(str(hexM)[2:-1].decode("hex")):
+				print str(hexM)[2:-1].decode('hex');
 		#print "Result: %s" %(hex(d)[2:].decode("hex"));
+
+print "we done here"
 
 
 #Str = hexD[2:]
