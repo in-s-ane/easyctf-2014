@@ -10,3 +10,5 @@ Using RSA.py and RSAYeech.py, we get the output file: RSASolve.txt, where we bru
 Because we know from the hint that the key is about rsa, we do a find for rsa in RSASolve.txt to get:
 rsa_2_easy
 as the flag.
+
+Or running ./RSAYeech.py 1197828 will give the flag as well.
