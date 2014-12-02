@@ -1,5 +1,6 @@
 import math
 import binascii
+from itertools import combinations
 
 p = 1398023584459
 q = 29065965967667
@@ -20,35 +21,14 @@ def powerMod(x , p , N):
 		m = k
 	return A
 
-def factorize(n):
-	temp = ""
-	T = n
-	PRIME = 1
-	i = 1
-	while ((T > 1) and (i + 1) <= n ** 0.5):
-		i += 1
-		while (T % i == 0):
-			T = T / i
-			if (PRIME == 0):
-				temp += "*"
-			if (PRIME == 1):
-				PRIME = 0
-			temp += str(i)
-	if (PRIME == 1):
-		temp = "A prime number"
-	elif (T > 1):
-		temp += "*" + str(T)
-	return temp
-
 print("p: 		" + str(p))
 print("q: 		" + str(q))
 print("N: 		" + str(N))
 print("r: 		" + str(r))
-#print(factorize(6 * r + 1))
 
 #Message = Cipher ** d % N
-
 cipher = int("ac470f7350ea67d7a0696" , 16)
+
 #Try 1: use r + 1
 #Factors = 7 , 349 , 16633199315534450203903
 
@@ -70,13 +50,26 @@ cipher = int("ac470f7350ea67d7a0696" , 16)
 #Try 7: use 7r + 1
 #Factors: 5 , 13 , 19 , 31 , 48337 , 11416753 , 13463139607
 
-d = 5 * 13 * 31 * 48337 * 11416753
+f = open('RSA.out' , 'w')
+possibleFactors = [5 , 13 , 19 , 31 , 48337 , 11416753 , 13463139607]
+fstreamOutput = ""
 
-message = powerMod(cipher , d , N)
-print("c:		" + str(cipher))
-print("m: 		" + str(message))
-print("d:		" + str(d))
-message = str(hex(message).split('x')[1])
-print("Hexify(m):	" + str(message))
-x = binascii.unhexlify(''.join(message[:-1].split()))
-print("Unhexlify(m):	" + str(x))
+for L in range(0 , len(possibleFactors)):
+	for subset in combinations(possibleFactors , L):
+		d = 1
+		for num in subset:
+			d = d * num
+		message = powerMod(cipher , d , N)
+		#print("c:		" + str(cipher))
+		#print("m: 		" + str(message))
+		#print("d:		" + str(d))
+		message = str(hex(message).split('x')[1])
+		#print("Hexify(m):	" + str(message))
+		try:
+			x = binascii.unhexlify(''.join(message[:-1].split()))
+			print("Unhexlify(m):		" + str(x))
+			fstreamOutput += str(x) + "\n"
+		except:
+			print("Returned error:		" + str(subset))
+
+f.write(fstreamOutput)
