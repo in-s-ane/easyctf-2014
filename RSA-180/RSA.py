@@ -44,16 +44,11 @@ cipher = int("ac470f7350ea67d7a0696" , 16)
 #Try 5: use 5r + 1
 #Factors = 97 , 475 , 4583332122070277002429
 
-#Try 6: use 6r + 1
-#Factors: 7 , 12101 , 231671101 , 12423940003681
+#et cetera.
 
-#Try 7: use 7r + 1
-#Factors: 5 , 13 , 19 , 31 , 48337 , 11416753 , 13463139607
-
-f = open('RSA.out' , 'w')
-possibleFactors = [5 , 13 , 19 , 31 , 48337 , 11416753 , 13463139607]
+f = open("RSA.out" , 'w')
+possibleFactors = [13 , 59389477894550967316505041]
 fstreamOutput = ""
-
 for L in range(0 , len(possibleFactors)):
 	for subset in combinations(possibleFactors , L):
 		d = 1
@@ -71,5 +66,5 @@ for L in range(0 , len(possibleFactors)):
 			fstreamOutput += str(x) + "\n"
 		except:
 			print("Returned error:		" + str(subset))
-
 f.write(fstreamOutput)
+f.close()
