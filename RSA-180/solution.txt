@@ -1,0 +1,12 @@
+We know that the modulus, given by the public key, N, is factored into p and q. Using the RSA algorith, we know r = (p - 1)(q - 1)
+Therefore, by using wolfram alpha to factor N, we get:
+p: 		1398023584459
+q: 		29065965967667
+N: 		40634905927881125837687153
+r: 		40634905927850661848135028
+
+Using RSA.py and RSAYeech.py, we get the output file: RSASolve.txt, where we brute force numbers coprime to N, also using the fact that e * d = 1 (mod r)
+
+Because we know from the hint that the key is about rsa, we do a find for rsa in RSASolve.txt to get:
+rsa_2_easy
+as the flag.
