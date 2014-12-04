@@ -1,0 +1,25 @@
+To solve this problem, you must run the guess.c code on the server, since rand() will work differently on different systems. So go ssh onto the server first.
+
+Then you have to start guessing (literally). The guess.c that is provided here prints out the answer before you guess, with 20 bit precision (pretty darn high). So use that as your first guess, and you will see that the answer printed out is 1.908940.
+This is the number you want to get to.
+
+So, let's lower the precision of our guess, so that our number does not stay at -2.000000
+
+Once you get to 1.27152323722839, you'll notice that your guess turns to -1.999998. This is still higher than 1.908940.
+
+So, continue until your guess is less than that. Which is when you get 1.271523237, which turns into 1.877382.
+
+Now, just keep adding numbers until your guess gets to 1.908940.
+
+However, once you get it to 1.908940 (in my case, inputting 1.271523237058782), you'll notice that you still won't get the flag. So, I added a bit more precision.
+
+After lotsa guessing, I concluded that the answer could be any number between
+
+-1.2715232370587816
+and 
+-1.2715232370587818
+
+Note that I added a negative in the end, so that it matched the negative that was overflowed into answer.
+
+Going with the average of the two endpoints on the range, I put in -1.2715232370587817.
+BAM lucky guess. It's not so evil after all.
