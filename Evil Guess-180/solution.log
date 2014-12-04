@@ -1,0 +1,778 @@
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 15200272 	 Pointer dereferenced: 0
+Pointer to guess: 15200272 	 Pointer dereferenced: -1230169632
+Pointer to answer: 15200276 	 Pointer dereferenced: -1230169632
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: -1.27152323722839355469
+
+answer: -1.908940, guess: -2.000000
+
+Sorry, that is not the secret number
+15200272
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 35192848 	 Pointer dereferenced: 0
+Pointer to guess: 35192848 	 Pointer dereferenced: 1382775264
+Pointer to answer: 35192852 	 Pointer dereferenced: 1382775264
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: 1.271523237228393554  
+
+answer: 1.908940, guess: -2.000000
+
+Sorry, that is not the secret number
+35192848
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 8433680 	 Pointer dereferenced: 0
+Pointer to guess: 8433680 	 Pointer dereferenced: -590480928
+Pointer to answer: 8433684 	 Pointer dereferenced: -590480928
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: 1.2715232372283935    
+
+answer: 1.908940, guess: -2.000000
+
+Sorry, that is not the secret number
+8433680
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 17420304 	 Pointer dereferenced: 0
+Pointer to guess: 17420304 	 Pointer dereferenced: 1000950240
+Pointer to answer: 17420308 	 Pointer dereferenced: 1000950240
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: 1.271523237228393     
+
+answer: 1.908940, guess: -2.000000
+
+Sorry, that is not the secret number
+17420304
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 22409232 	 Pointer dereferenced: 0
+Pointer to guess: 22409232 	 Pointer dereferenced: 1959356896
+Pointer to answer: 22409236 	 Pointer dereferenced: 1959356896
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: 1.27152323722839      
+
+answer: 1.908940, guess: -1.999998
+
+Sorry, that is not the secret number
+22409232
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 9793552 	 Pointer dereferenced: 0
+Pointer to guess: 9793552 	 Pointer dereferenced: -1881204256
+Pointer to answer: 9793556 	 Pointer dereferenced: -1881204256
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: 1.2715232372283       
+
+answer: 1.908940, guess: -1.999950
+
+Sorry, that is not the secret number
+9793552
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 14680080 	 Pointer dereferenced: 0
+Pointer to guess: 14680080 	 Pointer dereferenced: -2056865312
+Pointer to answer: 14680084 	 Pointer dereferenced: -2056865312
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: 1.271523237228        
+
+answer: 1.908940, guess: -1.999789
+
+Sorry, that is not the secret number
+14680080
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 15867920 	 Pointer dereferenced: 0
+Pointer to guess: 15867920 	 Pointer dereferenced: -1303586336
+Pointer to answer: 15867924 	 Pointer dereferenced: -1303586336
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: 1.27152323722         
+
+answer: 1.908940, guess: -1.995494
+
+Sorry, that is not the secret number
+15867920
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 23158800 	 Pointer dereferenced: 0
+Pointer to guess: 23158800 	 Pointer dereferenced: 921991648
+Pointer to answer: 23158804 	 Pointer dereferenced: 921991648
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: 1.2715232372          
+
+answer: 1.908940, guess: -1.984756
+
+Sorry, that is not the secret number
+23158800
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 18833424 	 Pointer dereferenced: 0
+Pointer to guess: 18833424 	 Pointer dereferenced: 413886944
+Pointer to answer: 18833428 	 Pointer dereferenced: 413886944
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: 1.271523237           
+
+answer: 1.908940, guess: -1.877382
+
+Sorry, that is not the secret number
+18833424
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 34492432 	 Pointer dereferenced: 0
+Pointer to guess: 34492432 	 Pointer dereferenced: -1317824032
+Pointer to answer: 34492436 	 Pointer dereferenced: -1317824032
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: 1.2715232371          
+
+answer: 1.908940, guess: -1.931069
+
+Sorry, that is not the secret number
+34492432
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 28946448 	 Pointer dereferenced: 0
+Pointer to guess: 28946448 	 Pointer dereferenced: 1934674400
+Pointer to answer: 28946452 	 Pointer dereferenced: 1934674400
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: 1.27152323701         
+
+answer: 1.908940, guess: -1.882751
+
+Sorry, that is not the secret number
+28946448
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 31842320 	 Pointer dereferenced: 0
+Pointer to guess: 31842320 	 Pointer dereferenced: 290752992
+Pointer to answer: 31842324 	 Pointer dereferenced: 290752992
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: 1.27152323702         
+
+answer: 1.908940, guess: -1.888120
+
+Sorry, that is not the secret number
+31842320
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 16744464 	 Pointer dereferenced: 0
+Pointer to guess: 16744464 	 Pointer dereferenced: 1270659552
+Pointer to answer: 16744468 	 Pointer dereferenced: 1270659552
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: 1.27152323703         
+
+answer: 1.908940, guess: -1.893488
+
+Sorry, that is not the secret number
+16744464
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 15478800 	 Pointer dereferenced: 0
+Pointer to guess: 15478800 	 Pointer dereferenced: -1006843424
+Pointer to answer: 15478804 	 Pointer dereferenced: -1006843424
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: 1.27152323705
+
+answer: 1.908940, guess: -1.904226
+
+Sorry, that is not the secret number
+15478800
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 17068048 	 Pointer dereferenced: 0
+Pointer to guess: 17068048 	 Pointer dereferenced: 2123762144
+Pointer to answer: 17068052 	 Pointer dereferenced: 2123762144
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: 1.27152323706
+
+answer: 1.908940, guess: -1.909594
+
+Sorry, that is not the secret number
+17068048
+user22801@easyctf:~$ 
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 21827600 	 Pointer dereferenced: 0
+Pointer to guess: 21827600 	 Pointer dereferenced: -312157728
+Pointer to answer: 21827604 	 Pointer dereferenced: -312157728
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: 1.271523237054
+
+answer: 1.908940, guess: -1.906373
+
+Sorry, that is not the secret number
+21827600
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 36405264 	 Pointer dereferenced: 0
+Pointer to guess: 36405264 	 Pointer dereferenced: 641243616
+Pointer to answer: 36405268 	 Pointer dereferenced: 641243616
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: 1.271523237059
+
+answer: 1.908940, guess: -1.909057
+
+Sorry, that is not the secret number
+36405264
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 19963920 	 Pointer dereferenced: 0
+Pointer to guess: 19963920 	 Pointer dereferenced: -563521056
+Pointer to answer: 19963924 	 Pointer dereferenced: -563521056
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: 1.271523237058
+
+answer: 1.908940, guess: -1.908521
+
+Sorry, that is not the secret number
+19963920
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 7286800 	 Pointer dereferenced: 0
+Pointer to guess: 7286800 	 Pointer dereferenced: 352578016
+Pointer to answer: 7286804 	 Pointer dereferenced: 352578016
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: 1.2715232370581
+
+answer: 1.908940, guess: -1.908574
+
+Sorry, that is not the secret number
+7286800
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 27000848 	 Pointer dereferenced: 0
+Pointer to guess: 27000848 	 Pointer dereferenced: -772830752
+Pointer to answer: 27000852 	 Pointer dereferenced: -772830752
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: 1.2715232370584
+
+answer: 1.908940, guess: -1.908735
+
+Sorry, that is not the secret number
+27000848
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 33882128 	 Pointer dereferenced: 0
+Pointer to guess: 33882128 	 Pointer dereferenced: -431486496
+Pointer to answer: 33882132 	 Pointer dereferenced: -431486496
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: 1.2715232370587
+
+answer: 1.908940, guess: -1.908896
+
+Sorry, that is not the secret number
+33882128
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 8556560 	 Pointer dereferenced: 0
+Pointer to guess: 8556560 	 Pointer dereferenced: -1201747488
+Pointer to answer: 8556564 	 Pointer dereferenced: -1201747488
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: 1.2715232370589
+
+answer: 1.908940, guess: -1.909004
+
+Sorry, that is not the secret number
+8556560
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 7692304 	 Pointer dereferenced: 0
+Pointer to guess: 7692304 	 Pointer dereferenced: 2074307040
+Pointer to answer: 7692308 	 Pointer dereferenced: 2074307040
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: 1.2715232370588
+
+answer: 1.908940, guess: -1.908950
+
+Sorry, that is not the secret number
+7692304
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 19841040 	 Pointer dereferenced: 0
+Pointer to guess: 19841040 	 Pointer dereferenced: 1240455648
+Pointer to answer: 19841044 	 Pointer dereferenced: 1240455648
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: 1.2715232370587
+
+answer: 1.908940, guess: -1.908896
+
+Sorry, that is not the secret number
+19841040
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 22913040 	 Pointer dereferenced: 0
+Pointer to guess: 22913040 	 Pointer dereferenced: -446969376
+Pointer to answer: 22913044 	 Pointer dereferenced: -446969376
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: 1.27152323705874
+
+answer: 1.908940, guess: -1.908918
+
+Sorry, that is not the secret number
+22913040
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 34144272 	 Pointer dereferenced: 0
+Pointer to guess: 34144272 	 Pointer dereferenced: 525470176
+Pointer to answer: 34144276 	 Pointer dereferenced: 525470176
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: 1.27152323705878
+
+answer: 1.908940, guess: -1.908939
+
+Sorry, that is not the secret number
+34144272
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 27951120 	 Pointer dereferenced: 0
+Pointer to guess: 27951120 	 Pointer dereferenced: 100936160
+Pointer to answer: 27951124 	 Pointer dereferenced: 100936160
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: 1.27152323705879
+
+answer: 1.908940, guess: -1.908945
+
+Sorry, that is not the secret number
+27951120
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 39710736 	 Pointer dereferenced: 0
+Pointer to guess: 39710736 	 Pointer dereferenced: 1557260768
+Pointer to answer: 39710740 	 Pointer dereferenced: 1557260768
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: 1.271523237058781
+
+answer: 1.908940, guess: -1.908940
+
+Sorry, that is not the secret number
+39710736
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 10379280 	 Pointer dereferenced: 0
+Pointer to guess: 10379280 	 Pointer dereferenced: -1211131424
+Pointer to answer: 10379284 	 Pointer dereferenced: -1211131424
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: 1.271523237058782
+
+answer: 1.908940, guess: -1.908940
+
+Sorry, that is not the secret number
+10379280
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 27459600 	 Pointer dereferenced: 0
+Pointer to guess: 27459600 	 Pointer dereferenced: -1998325280
+Pointer to answer: 27459604 	 Pointer dereferenced: -1998325280
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: 1.27152323705873
+
+answer: 1.908940, guess: -1.908913
+
+Sorry, that is not the secret number
+27459600
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 14254096 	 Pointer dereferenced: 0
+Pointer to guess: 14254096 	 Pointer dereferenced: -784795168
+Pointer to answer: 14254100 	 Pointer dereferenced: -784795168
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: 1.27152323705874
+
+answer: 1.908940, guess: -1.908918
+
+Sorry, that is not the secret number
+14254096
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 12333072 	 Pointer dereferenced: 0
+Pointer to guess: 12333072 	 Pointer dereferenced: 93145568
+Pointer to answer: 12333076 	 Pointer dereferenced: 93145568
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: 1.27152323705875
+
+answer: 1.908940, guess: -1.908923
+
+Sorry, that is not the secret number
+12333072
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 28680208 	 Pointer dereferenced: 0
+Pointer to guess: 28680208 	 Pointer dereferenced: 633514464
+Pointer to answer: 28680212 	 Pointer dereferenced: 633514464
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: 1.27152323705876
+
+answer: 1.908940, guess: -1.908929
+
+Sorry, that is not the secret number
+28680208
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 22065168 	 Pointer dereferenced: 0
+Pointer to guess: 22065168 	 Pointer dereferenced: 914266592
+Pointer to answer: 22065172 	 Pointer dereferenced: 914266592
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: 1.27152323705878
+
+answer: 1.908940, guess: -1.908939
+
+Sorry, that is not the secret number
+22065168
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 10076176 	 Pointer dereferenced: 0
+Pointer to guess: 10076176 	 Pointer dereferenced: -969897504
+Pointer to answer: 10076180 	 Pointer dereferenced: -969897504
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: 1.27152323705879
+
+answer: 1.908940, guess: -1.908945
+
+Sorry, that is not the secret number
+10076176
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 16060432 	 Pointer dereferenced: 0
+Pointer to guess: 16060432 	 Pointer dereferenced: 1839737312
+Pointer to answer: 16060436 	 Pointer dereferenced: 1839737312
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: 1.27152323705878
+
+answer: 1.908940, guess: -1.908939
+
+Sorry, that is not the secret number
+16060432
+user22801@easyctf:~$ vim guess.c
+user22801@easyctf:~$ gcc guess.c
+guess.c: In function ‘main’:
+guess.c:6:11: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  int bufA=(int)malloc(12); // Casts pointer to memory as an int
+           ^
+guess.c:7:70: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+  printf("Pointer to bufA: %d \t Pointer dereferenced: %d\n", bufA, *((int *) bufA));
+                                                                      ^
+guess.c:8:16: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+  float * guess=(float *)bufA;
+                ^
+guess.c:9:17: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+  float * answer=(float *)(bufA+4);
+                 ^
+guess.c:10:2: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘float *’ [-Wformat=]
+  printf("Pointer to guess: %d \t Pointer dereferenced: %d\n", guess, *guess);
+  ^
+guess.c:10:2: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘double’ [-Wformat=]
+guess.c:11:2: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘float *’ [-Wformat=]
+  printf("Pointer to answer: %d \t Pointer dereferenced: %d\n", answer, *answer);
+  ^
+guess.c:11:2: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘double’ [-Wformat=]
+guess.c:15:2: warning: format ‘%lf’ expects argument of type ‘double *’, but argument 2 has type ‘float *’ [-Wformat=]
+  scanf("%lf",guess);
+  ^
+guess.c:25:2: warning: passing argument 1 of ‘free’ makes pointer from integer without a cast [enabled by default]
+  free(bufA);
+  ^
+In file included from guess.c:2:0:
+/usr/include/stdlib.h:483:13: note: expected ‘void *’ but argument is of type ‘int’
+ extern void free (void *__ptr) __THROW;
+             ^
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 34611216 	 Pointer dereferenced: 0
+Pointer to guess: 34611216 	 Pointer dereferenced: -1976366624
+Pointer to answer: 34611220 	 Pointer dereferenced: -1976366624
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: 1.271523237058781
+
+answer: 1.9089403152, guess: -1.9089399576
+
+Sorry, that is not the secret number
+34611216
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 18001936 	 Pointer dereferenced: 0
+Pointer to guess: 18001936 	 Pointer dereferenced: 252176864
+Pointer to answer: 18001940 	 Pointer dereferenced: 252176864
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: 1.271523237058782
+
+answer: 1.9089403152, guess: -1.9089404345
+
+Sorry, that is not the secret number
+18001936
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 8740880 	 Pointer dereferenced: 0
+Pointer to guess: 8740880 	 Pointer dereferenced: -1989498400
+Pointer to answer: 8740884 	 Pointer dereferenced: -1989498400
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: 1.2715232370587812
+
+answer: 1.9089403152, guess: -1.9089400768
+
+Sorry, that is not the secret number
+8740880
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 15306768 	 Pointer dereferenced: 0
+Pointer to guess: 15306768 	 Pointer dereferenced: 1467804128
+Pointer to answer: 15306772 	 Pointer dereferenced: 1467804128
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: 1.2715232370587814
+
+answer: 1.9089403152, guess: -1.9089401960
+
+Sorry, that is not the secret number
+15306768
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 7344144 	 Pointer dereferenced: 0
+Pointer to guess: 7344144 	 Pointer dereferenced: -558253600
+Pointer to answer: 7344148 	 Pointer dereferenced: -558253600
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: 1.2715232370587813
+
+answer: 1.9089403152, guess: -1.9089400768
+
+Sorry, that is not the secret number
+7344144
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 24850448 	 Pointer dereferenced: 0
+Pointer to guess: 24850448 	 Pointer dereferenced: -1238111776
+Pointer to answer: 24850452 	 Pointer dereferenced: -1238111776
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: 1.271523237058786
+
+answer: 1.9089403152, guess: -1.9089425802
+
+Sorry, that is not the secret number
+24850448
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 38055952 	 Pointer dereferenced: 0
+Pointer to guess: 38055952 	 Pointer dereferenced: 187062752
+Pointer to answer: 38055956 	 Pointer dereferenced: 187062752
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: 1.271523237058785
+
+answer: 1.9089403152, guess: -1.9089421034
+
+Sorry, that is not the secret number
+38055952
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 37994512 	 Pointer dereferenced: 0
+Pointer to guess: 37994512 	 Pointer dereferenced: -1959458336
+Pointer to answer: 37994516 	 Pointer dereferenced: -1959458336
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: 1.2715232370587816
+
+answer: 1.9089403152, guess: -1.9089403152
+
+Sorry, that is not the secret number
+37994512
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 30130192 	 Pointer dereferenced: 0
+Pointer to guess: 30130192 	 Pointer dereferenced: -1386649120
+Pointer to answer: 30130196 	 Pointer dereferenced: -1386649120
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: -1.2715232370587816
+
+answer: -1.9089403152, guess: -1.9089403152
+
+The flag is '<flag hidden>'
+30130192
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 30720016 	 Pointer dereferenced: 0
+Pointer to guess: 30720016 	 Pointer dereferenced: -730179104
+Pointer to answer: 30720020 	 Pointer dereferenced: -730179104
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: -1.27152323705878161
+
+answer: -1.9089403152, guess: -1.9089403152
+
+The flag is '<flag hidden>'
+30720016
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 15130640 	 Pointer dereferenced: 0
+Pointer to guess: 15130640 	 Pointer dereferenced: 938142176
+Pointer to answer: 15130644 	 Pointer dereferenced: 938142176
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: -1.27152323705878162
+
+answer: -1.9089403152, guess: -1.9089403152
+
+The flag is '<flag hidden>'
+15130640
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 8048656 	 Pointer dereferenced: 0
+Pointer to guess: 8048656 	 Pointer dereferenced: -1982256672
+Pointer to answer: 8048660 	 Pointer dereferenced: -1982256672
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: -1.27152323705878163
+
+answer: -1.9089403152, guess: -1.9089403152
+
+The flag is '<flag hidden>'
+8048656
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 25874448 	 Pointer dereferenced: 0
+Pointer to guess: 25874448 	 Pointer dereferenced: -388113952
+Pointer to answer: 25874452 	 Pointer dereferenced: -388113952
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: -1.27152323705878164
+
+answer: -1.9089403152, guess: -1.9089403152
+
+The flag is '<flag hidden>'
+25874448
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 32694288 	 Pointer dereferenced: 0
+Pointer to guess: 32694288 	 Pointer dereferenced: 287463904
+Pointer to answer: 32694292 	 Pointer dereferenced: 287463904
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: -1.27152323705878165
+
+answer: -1.9089403152, guess: -1.9089403152
+
+The flag is '<flag hidden>'
+32694288
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 9551888 	 Pointer dereferenced: 0
+Pointer to guess: 9551888 	 Pointer dereferenced: 201460192
+Pointer to answer: 9551892 	 Pointer dereferenced: 201460192
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: -1.27152323705878166
+
+answer: -1.9089403152, guess: -1.9089403152
+
+The flag is '<flag hidden>'
+9551888
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 29413392 	 Pointer dereferenced: 0
+Pointer to guess: 29413392 	 Pointer dereferenced: 1756830176
+Pointer to answer: 29413396 	 Pointer dereferenced: 1756830176
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: -1.27152323705878167
+
+answer: -1.9089403152, guess: -1.9089403152
+
+The flag is '<flag hidden>'
+29413392
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 39780368 	 Pointer dereferenced: 0
+Pointer to guess: 39780368 	 Pointer dereferenced: -987723296
+Pointer to answer: 39780372 	 Pointer dereferenced: -987723296
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: -1.27152323705878168
+
+answer: -1.9089403152, guess: -1.9089403152
+
+The flag is '<flag hidden>'
+39780368
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 39354384 	 Pointer dereferenced: 0
+Pointer to guess: 39354384 	 Pointer dereferenced: 1370249696
+Pointer to answer: 39354388 	 Pointer dereferenced: 1370249696
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: -1.27152323705878169
+
+answer: -1.9089403152, guess: -1.9089403152
+
+The flag is '<flag hidden>'
+39354384
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 27279376 	 Pointer dereferenced: 0
+Pointer to guess: 27279376 	 Pointer dereferenced: -1592825376
+Pointer to answer: 27279380 	 Pointer dereferenced: -1592825376
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: -1.2715232370587817 
+
+answer: -1.9089403152, guess: -1.9089403152
+
+The flag is '<flag hidden>'
+27279376
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 36413456 	 Pointer dereferenced: 0
+Pointer to guess: 36413456 	 Pointer dereferenced: 59296224
+Pointer to answer: 36413460 	 Pointer dereferenced: 59296224
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: -1.2715232370587815 
+
+answer: -1.9089403152, guess: -1.9089401960
+
+Sorry, that is not the secret number
+36413456
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 8163344 	 Pointer dereferenced: 0
+Pointer to guess: 8163344 	 Pointer dereferenced: 603269600
+Pointer to answer: 8163348 	 Pointer dereferenced: 603269600
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: -1.2715232370587817 
+
+answer: -1.9089403152, guess: -1.9089403152
+
+The flag is '<flag hidden>'
+8163344
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 21491728 	 Pointer dereferenced: 0
+Pointer to guess: 21491728 	 Pointer dereferenced: -443831840
+Pointer to answer: 21491732 	 Pointer dereferenced: -443831840
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: -1.2715232370587818
+
+answer: -1.9089403152, guess: -1.9089404345
+
+Sorry, that is not the secret number
+21491728
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 11157520 	 Pointer dereferenced: 0
+Pointer to guess: 11157520 	 Pointer dereferenced: 371677664
+Pointer to answer: 11157524 	 Pointer dereferenced: 371677664
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: -1.27152323705878175
+
+answer: -1.9089403152, guess: -1.9089403152
+
+The flag is '<flag hidden>'
+11157520
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 33361936 	 Pointer dereferenced: 0
+Pointer to guess: 33361936 	 Pointer dereferenced: -1808545312
+Pointer to answer: 33361940 	 Pointer dereferenced: -1808545312
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: -1.27152323705878178
+
+answer: -1.9089403152, guess: -1.9089403152
+
+The flag is '<flag hidden>'
+33361936
+user22801@easyctf:~$ ./a.out 
+Pointer to bufA: 12120080 	 Pointer dereferenced: 0
+Pointer to guess: 12120080 	 Pointer dereferenced: 1458313696
+Pointer to answer: 12120084 	 Pointer dereferenced: 1458313696
+Answer: 1.27152323722839355469
+
+Please enter in a float to guess: -1.2715232370587817
+
+answer: -1.9089403152, guess: -1.9089403152
+
+The flag is '<flag hidden>'
+12120080
