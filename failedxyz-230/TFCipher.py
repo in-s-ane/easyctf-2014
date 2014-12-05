@@ -11,7 +11,7 @@ def whale(key , cipher):
 
 	try:
 		tuna = Twofish(key)
-		print(tuna.decrypt(cipher).decode())
+		print(key + ": " + tuna.decrypt(cipher).decode())
 	except:
 		#print("Key :" + key + " failed")
 		pass; # save your eye some trouble
