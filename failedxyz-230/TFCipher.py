@@ -15,6 +15,7 @@ def whale(key , cipher):
 	except:
 		#print("Key :" + key + " failed")
 		pass; # save your eye some trouble
+		#print "Nope"
 
 def brute():
 	alphabet = "a b c d e f g h j k l m n o p q r s t u v w x y z "
@@ -23,17 +24,12 @@ def brute():
 	L = alphabet.split()
 	L.append(" ")
 	tmp = ""
-	for i in (2,3,4):
+	for i in (16,24,32):
 		print i;
-		for subset in combinations(L , 2):
+		for subset in combinations(L , i):
 			for subsubset in permutations(subset):
 				tmp = "".join(subsubset)
-				testVal = tmp * (8/i)
-				if i == 3:
-					testVal = testVal+tmp
-				while len(testVal) <= 32:
-					whale(testVal , "5ktxaA0e8yaL5tvrXjfKjM4ZYGmgVtSvsS7yZoH9udI=")
-					testVal = testVal + tmp
+				whale(tmp , "5ktxaA0e8yaL5tvrXjfKjM4ZYGmgVtSvsS7yZoH9udI=")
 
 brute()
 #osu = "osu"
