@@ -19,13 +19,13 @@ def whale(key , cipher):
 		#print "Nope"
 
 def brute():
-	alphabet = string.printable
+	alphabet = string.printable[0:62] # failedxyz said it's alphanumeric
 
 	print("Alphabet loaded: " + alphabet)
         L = [l for l in alphabet]
 	L.append(" ")
-	tmp = ""
-	for i in (16,24,32):
+	tmp = "L"
+	for i in (15,23,31):
 		print i;
 		for subset in combinations(L , i):
 			for subsubset in permutations(subset):
