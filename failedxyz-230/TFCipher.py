@@ -1,3 +1,4 @@
+import string
 from twofish import Twofish
 from itertools import permutations
 from itertools import combinations
@@ -18,10 +19,10 @@ def whale(key , cipher):
 		#print "Nope"
 
 def brute():
-	alphabet = "a b c d e f g h j k l m n o p q r s t u v w x y z "
-	alphabet += alphabet.upper() + "1 2 3 4 5 6 7 8 9 0"
+	alphabet = string.printable
+
 	print("Alphabet loaded: " + alphabet)
-	L = alphabet.split()
+        L = [l for l in alphabet]
 	L.append(" ")
 	tmp = ""
 	for i in (16,24,32):
