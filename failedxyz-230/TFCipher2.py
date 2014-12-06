@@ -36,9 +36,16 @@ def brute():
 				whale(tmp , "5ktxaA0e8yaL5tvrXjfKjM4ZYGmgVtSvsS7yZoH9udI=")
 				counter+=1
 
-brute()
+#brute()
 #osu = "osu"
 #key = "osu";
 #while len(key) <= 32:
 #whale("L"*32,"5ktxaA0e8yaL5tvrXjfKjM4ZYGmgVtSvsS7yZoH9udI=")
 #	key = key + osu;
+whale("myNameIsMichaelZhang","5ktxaA0e8yaL5tvrXjfKjM4ZYGmgVtSvsS7yZoH9udI");
+whale("lostlonelinessliberation","5ktxaA0e8yaL5tvrXjfKjM4ZYGmgVtSvsS7yZoH9udI");
+whale("LostLonelinessLiberation","5ktxaA0e8yaL5tvrXjfKjM4ZYGmgVtSvsS7yZoH9udI");
+whale("LostLoneLinessLiberation","5ktxaA0e8yaL5tvrXjfKjM4ZYGmgVtSvsS7yZoH9udI");
+whale("lostLonelinessLiberation","5ktxaA0e8yaL5tvrXjfKjM4ZYGmgVtSvsS7yZoH9udI");
+
+#whale("")
