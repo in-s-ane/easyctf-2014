@@ -4,7 +4,7 @@ EasyCTF - in/s/ane
 Solutions to problems written by team in/s/ane during the [2014 EasyCTF (Capture the Flag)](http://easyctf.com) challenge
 
 Team Members:
-- Ethan Lin
+- Ethan Cheng
 - Yicheng
 - Danny Qiu
 - Chesley Tan
