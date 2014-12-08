@@ -5,7 +5,7 @@ Solutions to problems written by team in/s/ane during the [2014 EasyCTF (Capture
 
 Team Members:
 - Ethan Cheng
-- Yicheng
+- Yicheng Wang
 - Danny Qiu
 - Chesley Tan
 - Richard Zhan
