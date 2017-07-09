@@ -13,7 +13,7 @@ Team Members:
 EasyCTF ran from November 29, 2014 - December 6, 2014
 
 We peaked at rank 1 on November 30, 2014!
-![Rank 1](http://raw.github.com/dannyqiu/easyctf-in-s-ane/master/_Ranking/Screen Shot 2014-11-30 at 12.38.41 AM.png)
+![Rank 1](https://github.com/in-s-ane/easyctf-2014/raw/master/_Ranking/Screen%20Shot%202014-11-30%20at%2012.38.41%20AM.png)
 
 And finished at rank 5 in a 9-way tie...
-![Rank 5](http://raw.github.com/dannyqiu/easyctf-in-s-ane/master/_Ranking/Screen Shot 2014-12-07 at 3.20.54 PM.png)
+![Rank 5](https://github.com/in-s-ane/easyctf-2014/raw/master/_Ranking/Screen%20Shot%202014-12-07%20at%203.20.54%20PM.png)
